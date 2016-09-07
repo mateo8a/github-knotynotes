@@ -6,7 +6,7 @@ var AddNote = React.createClass({
     addNote: React.PropTypes.func.isRequired
   },
   setRef: function(ref){
-    this.note = ref
+    this.note = ref;
   },
   handleSubmit: function(){
     var newNote = this.note.value;
